@@ -1,0 +1,1 @@
+# darktide-shop-extension-json
