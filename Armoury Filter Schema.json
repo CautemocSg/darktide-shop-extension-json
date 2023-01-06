@@ -1,0 +1,64 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "character": {
+          "type": ["array", "string"],
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "item": {
+          "type": ["array", "string"],
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "blessing": {
+          "type": ["array", "string"],
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "minBlessingRarity": {
+          "type": ["array", "integer"],
+          "items": [
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "perk": {
+          "type": ["array", "string"],
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "minPerkRarity": {
+          "type": ["array", "integer"],
+          "items": [
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "minStats": {
+          "type": "integer"
+        },
+        "minRating": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}
